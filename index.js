@@ -47,7 +47,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['🎁 𝘼𝙙𝙙 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣𝙚𝙧 𝙉𝙪𝙢𝙗𝙚𝙧 𝙃𝙚𝙧𝙚.🎁']
+const ownerNumber = ['94712049951']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -204,7 +204,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("💛 SUHAS-MD-V9 Started. 💛");
+res.send("💛 Dihan Userbot Started. 💛");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
